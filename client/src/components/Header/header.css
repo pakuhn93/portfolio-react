@@ -1,0 +1,35 @@
+header {
+    display: flex;
+    width: 99%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+
+#header-title{
+    font-size: 70px;
+    margin: auto;
+    border: solid;
+}
+
+#header-nav {
+    display: flex;
+    font-size: 70px;
+    justify-content: space-evenly;
+    border: solid;
+}
+
+.header-nav {
+    color: darkred;
+    border: solid;
+    border-color: black;
+}
+
+.header-nav:hover{
+    color: red;
+}
+
+.header-title{
+    display: inline;
+    margin: auto;
+}
